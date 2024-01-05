@@ -1,0 +1,22 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+
+li{
+    display: inline;
+    border: 0px black solid;
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+a{
+    color: black;
+}
