@@ -1,22 +1,24 @@
 body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-nav{
+header li{
+    display: inline-flexbox;
+    border: 2px black solid;
+    border-radius: 25px;
+    background-color: rgb(0, 255, 145);
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
     align-items: center;
-    display: flex;
-    justify-content: space-between;
     list-style: none;
-}
-
-
-li{
-    display: inline;
-    border: 0px black solid;
-    background-color: yellow;
-    border-radius: 10px;
 }
 
 a{
     color: black;
+}
+
+#quienes_somos img{
+    height: 160px;
+    border-radius: 25px;
 }
